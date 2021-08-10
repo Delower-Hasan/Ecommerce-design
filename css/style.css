@@ -1,0 +1,687 @@
+/*
+  Theme Name: Packnshift
+  Author: Delower Hasan
+  Support: dhhasansaha11@gmail.com
+  Description: This is an packnshift Product
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. Banner
+4. service
+5. cat service
+6. Quotation form
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap');
+
+ body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+    background-color: #F8F8F8;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+img{
+	width: 100%;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a{
+    text-decoration:none;
+}
+a,
+.button,button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+button{cursor: pointer}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #FBBA42;
+	text-decoration: none;
+}
+a,
+button {
+	color: #1696e7;
+	outline: medium none;
+}
+button:focus {
+  outline: 0 none;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: #333333;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 20px;
+	color: #111111;
+	margin-bottom: 15px;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+.btn {
+  -moz-user-select: none;
+  background: #0F4C81 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: #ffffff;
+  display: inline-block;
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.1;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  border: 2px solid #ffffff;
+  
+}
+
+
+.btn:hover{
+    color: #fff;
+    background-color: rgba(255, 8, 37, 0.76);
+    border:2px solid rgba(255, 8, 37, 0.76);;
+}
+
+
+.btn.btn-2 {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #fbba42;
+  line-height: 1;
+  padding: 17px 35px;
+}
+.btn.btn-2:hover{border-color: #2f3440}
+.btn i {
+  margin-right: 10px;
+}
+
+/* Custom css Starts here */
+
+/* Header */
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: rgba(17,17,17,1);
+}
+
+li.nav-item:last-child .nav-link{
+    padding-top: 2px;
+}
+.navbar-nav .nav-link img  {
+    width: 30px;
+    display: inline-block;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:active {
+    position: relative;
+    color: rgba(17,17,17,1);
+    font-weight: bold;
+}
+
+a.nav-link.active:after {
+    position: absolute;
+    content: '';
+    background: #111;
+    height: 2px;
+    width: 77%;
+    bottom: 5px;
+    left: 8px;
+    transform: matrix(1,0,0,1,0,0);
+}
+nav.navbar {
+    border-bottom: 4px solid rgba(15,76,129,1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-light .navbar-brand img {
+    width: 100px;
+}
+
+/* Hero area */
+.hero-content h2 {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    color: #111111;
+    font-weight:500;
+    margin-bottom: 15px;
+
+}
+.hero-content {
+    padding-top: 115px;
+}
+.hero-right-content {
+    position: relative;
+
+}
+.social a {
+	border: 1px solid #111;
+	padding: 10px 11px;
+	color: #111;
+	border-radius: 50%;
+	text-align: center;
+ }
+ .social a i {
+	 font-size: 20px;
+	 color: #111;
+ }
+ .social a.fb {
+	border: 1px solid #111;
+	padding: 9px 14px;
+    color: #111;
+    border-radius: 50%;
+    text-align: center
+ }
+
+
+.big-img {
+	position: absolute;
+    right: 189px;
+    top: 100px;
+    z-index: 3;
+}
+.big-img img{
+	width: 400px;
+}
+img.small-hero-2 {
+    position: absolute;
+    right: 40px;
+    z-index: 4;
+    top: 250px;
+    width: 250px;
+}
+img.small-hero {
+    position: absolute;
+    right: 180px;
+    top: 459px;
+    z-index: 5;
+    width: 250px;
+}
+.dots img {
+    width: 300px;
+}
+
+.dots {
+    position: absolute;
+    left: 41%;
+    top: 475px;
+}
+
+.dots-2 img {
+    width: 301px;
+}
+
+.dots-2 {
+    position: absolute;
+    right: 5px;
+    top: 50px;
+}
+.dots {
+    left: 32%;
+    top: 270px;
+}
+.dots-2 {
+    right: 7px;
+    top: 50px;
+}
+/* Catalog area */
+.catalog-img{
+	background: #fff;
+    height: 240px;
+    width: 280px;
+    padding: 0;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    padding: 0 20px;
+	text-align: center;
+}
+.catalog-wrapper {
+    padding-left: 70px;
+}
+
+.catalog-info p {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(17,17,17,1);
+    padding-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+
+.catalog-info span.price {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(17,17,17,1);
+   
+}
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* Nav */
+button.slick-prev.slick-arrow {
+    font-size: 80px;
+    color: rgba(0,0,0,1);
+    background: none;
+    border: none;
+   
+
+}
+
+button.slick-prev.slick-arrow i.fas.fa-angle-left {
+    position: absolute;
+	left: 23px;
+    top: 38%;
+    transform: translateY(-50%);
+}
+
+button.slick-prev.slick-arrow i.fas.fa-angle-right {
+	position: absolute;
+    right: 0;
+    top: 38%;
+    transform: translateY(-50%);
+ 
+}
+
+/* dots */
+ul.slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: flex;
+	transform: translateX(-50%);
+}
+
+ul.slick-dots li button {
+    border: 1px solid #111;
+    border-radius: 50%;
+    color: #111;
+    color: transparent;
+    padding: 0px 7px;
+   
+}
+
+ul.slick-dots li {
+    padding: 0 7px;
+}
+
+
+li.slick-active button {
+    background: rgba(17,17,17,1);
+}
+
+/* Process area */
+span.process-icon {
+    font-size: 28px;
+    display: inline-block;
+    margin-right: 10px;
+    color: rgba(17,17,17,1);
+}
+
+span.process-text {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(17,17,17,1);
+}
+.process-wrapper {
+    position: relative;
+    padding: 10px 0;
+	text-align: center;
+}
+
+.process-wrapper:after {
+    position: absolute;
+    content: '';
+    background: #111;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.process-wrapper:before {
+    position: absolute;
+    content: '';
+    background: #111;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+/* Brand portfolio */
+
+.catalog-img.brand {
+    background: #fff;
+    height: 200px;
+    width: 258px;
+}
+.section-title h3 {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(17,17,17,1);
+}
+
+
+/* subscription area */
+.subscription-left h4 {
+    line-height: 62px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(248,248,248,1);
+  
+    margin-bottom: 20px;
+}
+
+.subscription-left p {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(248,248,248,1);
+    line-height: 1.2;
+}
+.subscription-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+.subscription-right {
+    position: relative;
+    text-align: right;
+    top: 56%;
+    transform: translateY(-50%);
+}
+
+input.sub-input {
+    height: 50px;
+    width: 500px;
+    padding-left: 18px;
+    color: #111;
+    border: 1px solid #111;
+}
+input.sub-input:focus {
+   outline: 0;
+}
+
+button.sub-btn {
+    background: rgba(15,76,129,1);
+    border: none;
+    color: #fff;
+    padding: 12px 32px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    font-size: 16px;
+}
+
+/* footer area */
+.footer-logo img {
+    width: 30%;
+}
+
+.footer-logo p {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(17,17,17,1);
+    margin-top: 10px;
+}
+
+ul.footer li a {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(17,17,17,1);
+}
+
+ul.footer {
+    text-align: left;
+}
+
+ul.footer li {
+    margin: 13px 0;
+}
+
+ul.footer a i {
+    font-size: 23px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.footer-bottom span {
+    display: block;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(17,17,17,1);
+}
+
+/* Catalog Page */
+
+/* Banner area */
+.banner-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+nav.navbar.catalog {border: none;}
+.catalog-page-area .accordion-item {
+    background-color: transparent;
+    border: none;
+}
+.catalog-page-area div#accordionExample {
+    width: 100%;
+}
+.catalog-page-area .accordion-button:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.catalog-page-area .accordion-button {
+    width: 100%;
+    color: #111;
+    background-color: transparent;
+    border: 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: rgba(17,17,17,1);
+   
+}
+.catalog-page-area .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    border: none;
+    color: #111;
+}
+.catalog-page-area label.form-check-label {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(17,17,17,1);
+}
+.catalog-page-area .form-check-input[type=radio] {
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 9px;  
+}
+.catalog-page-area .form-check-input:checked {
+    background-color: #111;
+    border-color: #111;
+}
+.catalog-page-area .form-check-input:focus {
+    border-color: #111;
+    box-shadow: none;
+}
+.catalog-page-area .catalog-img {
+    height: 190px;
+    width: 100%;
+}
+.catalog-page-area .catalog-info {
+    padding-left: 8px;
+}
+.catalog-page-area .form-check {
+    margin-bottom: .25rem;
+}

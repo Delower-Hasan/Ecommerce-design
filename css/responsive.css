@@ -1,0 +1,334 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .big-img img {
+        width: 350px;
+    }
+    img.small-hero-2 {
+        right: 89px;
+    }
+    .hero-right-content {
+        left: 50px;
+    }
+    section.hero-section {
+        overflow: hidden;
+    }
+    .social .mt-250 {
+        padding-bottom: 30px;
+        height: 250px;
+    }
+    .catalog-img.brand {
+        height: 190px;
+        width: 224px;
+    }
+    input.sub-input {
+    width: 457px;
+}
+ul.footer li a {
+    font-size: 14px;
+}
+button.slick-prev.slick-arrow {
+    font-size: 60px;
+}
+.subscription-left h4 {
+
+    font-size: 46px;
+   
+}
+
+.catalog-page-area .catalog-img {
+    height: 164px;
+}
+.hero-content .social {
+    padding-bottom: 30px;
+}
+.dots {
+    left: 31%;
+    top: 425px;
+}
+.dots-2 {
+    right: 52px;
+    top: 56px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .hero-right-content {
+        left: 105px;
+    }
+    .big-img img {
+        width: 250px;
+    }
+    img.small-hero {
+        right: 150px;
+        top: 288px;
+        width: 200px;
+    }
+    img.small-hero-2 {
+        right: 69px;
+        top: 164px;
+        width: 200px;
+    }
+    .mt-250 {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .hero-content h2 {
+        font-size: 30px;
+    }
+    .catalog-img {
+        width: 221px;
+        height: 200px;
+    }
+    .pt-100{
+        padding-top: 60px;
+    }
+    .pb-100 {
+        padding-bottom: 60px;
+    }
+    .catalog-img.brand {
+        height: 190px;
+        width: 250px;
+    }
+    input.sub-input {
+        width: 337px;
+    }
+    .subscription-left h4 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+    .subscription-left p {
+        font-size: 20px;
+    }
+    .catalog-page-area .catalog-img {
+        height: 105px;
+    }
+    .catalog-page-area .catalog-info p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .catalog-page-area .accordion-button {
+        font-size: 23px;
+    }
+    .catalog-page-area label.form-check-label {
+        font-size: 20px;
+    }
+    .catalog-page-area .form-check-input[type=radio] {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    a.nav-link.active:after {
+        width: 9%;
+        left: 0;      
+    }
+    .hero-right-content {
+        left: 105px;
+    }
+    .big-img img {
+        width: 200px;
+    }
+   
+    img.small-hero-2 {
+        right: 130px;
+        top: 152px;
+        width: 150px;
+    }
+    img.small-hero {
+        right: 176px;
+        top: 242px;
+        width: 154px;
+    }
+    section.hero-section {
+        overflow: hidden;
+    }
+    .hero-content h2 {
+        font-size: 28px;
+    }
+    .mt-250 {
+        margin-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .catalog-img {
+        height: 130px;
+        width: 162px;
+    }
+    button.slick-prev.slick-arrow {
+        font-size: 60px;
+    }
+    button.slick-prev.slick-arrow i.fas.fa-angle-right {
+        top: 34%;
+    }
+    button.slick-prev.slick-arrow i.fas.fa-angle-left {
+        top: 34%;
+       
+    }
+    span.process-text {
+        font-size: 13px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .catalog-img.brand {
+        height: 125px;
+        width: 167px;
+    }
+    input.sub-input {
+        width: 247px;
+    }
+    .subscription-left h4 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .subscription-left p {
+        font-size: 14px;
+    }
+    button.sub-btn {
+        padding: 16px 23px;
+        font-size: 11px;
+    }
+    ul.footer li a {
+        font-size: 14px;
+       
+    }
+    .catalog-page-area .accordion-button {
+        font-size: 16px;
+    }
+    .catalog-page-area label.form-check-label {
+        font-size: 14px;
+    }
+    .catalog-page-area .form-check-input[type=radio] {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .catalog-page-area .catalog-img {
+        height: 130px;
+    }
+    .catalog-info p {
+        font-size: 15px;
+        margin: 0;
+    }
+    .catalog-info span.price {
+        font-size: 14px;
+    }
+    .accordion-button::after {
+        width: 1rem;
+        height: 1rem;
+        background-size: 1rem;
+
+    }
+    .mb-50 {
+        margin-bottom: 30px;
+    }
+    .dots img {
+        width: 150px;
+    }
+    .dots {
+        left: 39%;
+        top: 282px;
+    }
+    .dots-2 img {
+        width: 100px;
+    }
+    .dots-2 {
+        right: 135px;
+        top: 81px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    a.nav-link.active:after {
+        width: 8%;
+        left: 0;
+    }
+    nav.navbar {
+        width: 513px;
+    }
+    .hero-right-content{
+        display: none;
+    }
+    .hero-content {
+    padding-top: 30px;
+    text-align: center;
+}
+.mt-250 {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.catalog-img {
+    height: 109px;
+    width: 140px;
+}
+button.slick-prev.slick-arrow {
+    font-size: 30px;
+}
+button.slick-prev.slick-arrow i.fas.fa-angle-left {
+    left: 41px;
+    top: 34%;
+}
+button.slick-prev.slick-arrow i.fas.fa-angle-right {
+    top: 34%;
+}
+.mt-100 {
+    margin-top: 31px;
+}
+.mt-3 {
+    margin-top: 1.5rem!important;
+}
+.pb-100 {
+    padding-bottom: 50px;
+}
+
+.pt-100 {
+    padding-top: 50px;
+}
+.subscription-left h4 {
+    font-size: 50px; 
+}
+.subscription-left p {
+    font-size: 20px;
+}
+button.sub-btn {
+    padding: 12px 30px;
+}
+.catalog-img img {
+    width: 100%;
+}
+.catalog-page-item-wrapper {
+    margin-top: 30px;
+}
+
+.catalog-page-area .accordion-button {
+    font-size: 25px;
+}
+.catalog-page-area label.form-check-label {
+    font-size: 20px;
+}
+.catalog-page-area .form-check-input[type=radio] {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.catalog-page-area .catalog-img img {
+    width: 50%;
+}
+
+}
