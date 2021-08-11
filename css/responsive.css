@@ -49,13 +49,59 @@ button.slick-prev.slick-arrow {
     padding-bottom: 30px;
 }
 .dots {
-    left: 31%;
-    top: 425px;
+    left: 36%;
+    top: 479px;
+}
+.dots img {
+    width: 200px;
 }
 .dots-2 {
-    right: 52px;
-    top: 56px;
+    right: 64px;
+    top: 140px;
 }
+.dots-2 img {
+    width: 200px;
+}
+.left-dots {
+    left: -251px;
+}
+.right-dots {
+    right: -31px;
+    top: 18px;
+}
+.item-product h3 {
+
+    font-size: 26px;
+   
+}
+.item-product span {
+
+    font-size: 23px;
+  
+}
+.product-img {
+    width: 90px;
+}
+
+.big-img2 {
+    position: absolute;
+    right: 199px;
+    top: 108px;
+}
+.big-img2 img {
+    width: 350px;
+}
+img.small-hero-21 {
+    width: 250px;
+    position: absolute;
+    right: 77px;
+    top: 240px;
+}
+
+
+
+
+
 
 }
 
@@ -85,8 +131,17 @@ button.slick-prev.slick-arrow {
         font-size: 30px;
     }
     .catalog-img {
-        width: 221px;
-        height: 200px;
+        width: 155px;
+        height: 133px;
+    }
+    button.slick-prev.slick-arrow {
+        font-size: 60px;
+    }
+    button.slick-prev.slick-arrow i.fas.fa-angle-left {
+        top: 34%;
+    }
+    button.slick-prev.slick-arrow i.fas.fa-angle-right {
+        top: 34%;
     }
     .pt-100{
         padding-top: 60px;
@@ -95,8 +150,8 @@ button.slick-prev.slick-arrow {
         padding-bottom: 60px;
     }
     .catalog-img.brand {
-        height: 190px;
-        width: 250px;
+        height: 160px;
+        width: 216px;
     }
     input.sub-input {
         width: 337px;
@@ -125,6 +180,50 @@ button.slick-prev.slick-arrow {
         font-size: 18px;
         margin-top: 7px;
     }
+    .left-dots img{
+        width: 80%;
+    }
+    .left-dots {
+        left: -200px;
+    }
+    .right-dots img {
+        width: 60%;
+    }
+    .right-dots {
+        right: -146px;
+        top: 43px;
+    }
+    .item-product h3 {
+        font-size: 26px;
+    }
+    .product-img {
+        height: 60px;
+        width: 64px;
+    }
+    .dots {
+        left: 34%;
+        top: 297px;
+    }
+    .dots-2 {
+        right: 4px;
+        top: 110px;
+    }
+    .big-img2 img {
+        width: 250px;
+    }
+    img.small-hero-1 {
+       
+        display: none;
+    }
+    img.small-hero-21 {
+   
+        display: none;
+    }
+    .footer-logo img {
+        width: 60%;
+    }
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -240,8 +339,8 @@ button.slick-prev.slick-arrow {
         width: 150px;
     }
     .dots {
-        left: 39%;
-        top: 282px;
+        left: 40%;
+        top: 286px;
     }
     .dots-2 img {
         width: 100px;
@@ -249,6 +348,42 @@ button.slick-prev.slick-arrow {
     .dots-2 {
         right: 135px;
         top: 81px;
+    }
+    .right-dots {
+       
+        display: none;
+    }
+    .left-dots {
+   
+        left: -250px;
+      
+    }
+    .pr-50 {
+        padding-right: 0px;
+    }
+    .item-wrapper .catalog-img {
+        height: 143px;
+        width: 175px;
+    }
+    .item-product h3 {
+        font-size: 26px;
+    }
+    .item-product span {
+        margin-top: 20px;
+    }
+    img.small-hero-1 {
+       
+        display: none;
+    }
+    img.small-hero-21 {
+   
+        display: none;
+    }
+    .big-img2  {
+        display: none;
+    }
+    .social a {
+        display: inline-block;
     }
 
 }
@@ -313,8 +448,14 @@ button.sub-btn {
 .catalog-img img {
     width: 100%;
 }
+
 .catalog-page-item-wrapper {
     margin-top: 30px;
+}
+.catalog-img.brand {
+    background: #fff;
+    height: 172px;
+    width: 225px;
 }
 
 .catalog-page-area .accordion-button {
@@ -328,7 +469,44 @@ button.sub-btn {
     margin-top: 6px;
 }
 .catalog-page-area .catalog-img img {
-    width: 50%;
+    width: 70%;
+}
+.catalog-page-area .catalog-img {
+    height: 133px;
+    width: 100%;
+}
+.right-dots {
+    display: none;
+}
+.left-dots {
+    display: none;
+}
+.item-product {
+    margin-top: 40px;
+}
+.item-wrapper .catalog-img {
+   
+    height: 170px;
+    width: 200px;
+   
+    
+}
+.social a {
+    display: inline-block;
+}
+.footer-bottom span {
+    font-size: 21px;
+}
+img.small-hero-1 {
+       
+    display: none;
+}
+img.small-hero-21 {
+
+    display: none;
+}
+.big-img2  {
+    display: none;
 }
 
-}
+} 

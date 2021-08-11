@@ -1,24 +1,11 @@
 /*
-  Theme Name: Packnshift
+  Theme Name: Dalwar
   Author: Delower Hasan
   Support: dhhasansaha11@gmail.com
-  Description: This is an packnshift Product
+  Description: This is a Dalwar Product
   Version: 1.0
 */
 
-/* CSS Index 
------------------------------------
-1. Theme default css
-2. header
-3. Banner
-4. service
-5. cat service
-6. Quotation form
-7. team
-8. video-area
-9. counter
-10. footer 
-*/
 
 
 
@@ -185,13 +172,13 @@ label {
   color: #ffffff;
   display: inline-block;
   font-family: poppins;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 1.1;
   padding-top: 14px;
   padding-bottom: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
@@ -283,7 +270,16 @@ nav.navbar {
 }
 .hero-right-content {
     position: relative;
-
+    height: 44px;
+}
+img.small-hero-21 {
+    width: 250px;
+    position: absolute;
+    right: 25px;
+    top: 240px;
+}
+.hero-content p {
+    font-size: 20px;
 }
 .social a {
 	border: 1px solid #111;
@@ -321,6 +317,23 @@ img.small-hero-2 {
     top: 250px;
     width: 250px;
 }
+.big-img2 {
+    position: absolute;
+    right: 199px;
+    top: 115px;
+}
+
+.big-img2 img {
+    width: 400px;
+}
+img.small-hero-1 {
+    width: 250px;
+    position: absolute;
+    top: 472px;
+    right: 166px;
+}
+
+
 img.small-hero {
     position: absolute;
     right: 180px;
@@ -351,22 +364,40 @@ img.small-hero {
     left: 32%;
     top: 270px;
 }
+.dots {
+    left: 42%;
+    top: 490px;
+    position: absolute;
+}
 .dots-2 {
-    right: 7px;
-    top: 50px;
+    position: absolute;
+    right: 5px;
+    top: 101px;
+}
+.hero-content .social {
+    padding-bottom: 26px;
 }
 /* Catalog area */
-.catalog-img{
-	background: #fff;
-    height: 240px;
-    width: 280px;
+.catalog-img {
+    background: #fff;
+    height: 220px;
+    width: 240px;
     padding: 0;
     filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
     padding: 0 20px;
-	text-align: center;
+    text-align: center;
 }
 .catalog-wrapper {
-    padding-left: 70px;
+    padding-left: 100px;
+}
+.catalog-page-area .item-product h3 {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: rgba(17,17,17,1);
+    margin-bottom: 10px;
 }
 
 .catalog-info p {
@@ -381,7 +412,10 @@ img.small-hero {
     margin-bottom: 8px;
 }
 
-
+section.hero-section {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
 
 .catalog-info span.price {
     white-space: nowrap;
@@ -546,7 +580,7 @@ span.process-text {
 
 input.sub-input {
     height: 50px;
-    width: 500px;
+    width: 100%;
     padding-left: 18px;
     color: #111;
     border: 1px solid #111;
@@ -576,9 +610,13 @@ button.sub-btn {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 24px;
     color: rgba(17,17,17,1);
     margin-top: 10px;
+    padding-left: 16px;
+}
+.footer-bottom .social {
+    padding-left: 16px;
 }
 
 ul.footer li a {
@@ -586,7 +624,7 @@ ul.footer li a {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 24px;
     color: rgba(17,17,17,1);
 }
 
@@ -684,4 +722,122 @@ nav.navbar.catalog {border: none;}
 }
 .catalog-page-area .form-check {
     margin-bottom: .25rem;
+}
+
+/* Item area */
+.zoom-img img {
+    width: 100%;
+}
+
+.zoom-img {
+    width: 99%;
+    background: #fff;
+    filter:drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161))
+}
+
+.menu-img {
+    background: #fff;
+    margin-top: 8px;
+    margin-right: 5px;
+    filter:drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161))
+}
+.item-product h3 {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(17,17,17,1);
+    margin-bottom: 10px;
+}
+
+.item-product-img img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item-product-img {
+    background: #fff;
+    width: 155px;
+    text-align: center;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+}
+
+.item-product span {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(17,17,17,1);
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.product-img {
+    background: #fff;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    height: 80px;
+    width: 102px;
+}
+.single-product {
+    position: relative;
+}
+
+.right-dots {
+    position: absolute;
+    right: -21px;
+    top: 18px;
+}
+.product-item-area {
+    position: relative;
+}
+
+.left-dots {
+    position: absolute;
+    left: -218px;
+    top: 17px;
+}
+.item-product p {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(17,17,17,1);
+}
+.item-title h3 {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(17,17,17,1);
+}
+
+.item-title p {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(17,17,17,1);
+    margin-top: 14px;
+}
+.item-wrapper .catalog-img {
+    background: #fff;
+    height: 185px;
+    width: 240px;
+    padding: 0;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    padding: 0 20px;
+    text-align: center;
+}
+.item-sizes td {
+    background: #fff;
+}
+.picZoomer-pic-wp {
+    width: 100% !important;
 }
