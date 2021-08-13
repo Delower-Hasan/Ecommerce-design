@@ -30,11 +30,15 @@ $('.catalog-wrapper').slick({
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 480,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
-        }
+        },
+      
+     
+     
+
       }
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
@@ -52,10 +56,10 @@ $('.brand-wrapper').owlCarousel({
         0:{
             items:2
         },
-        600:{
+        500:{
             items:3
         },
-        1000:{
+        992:{
             items:4
         }
     }
