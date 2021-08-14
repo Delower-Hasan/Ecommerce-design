@@ -16,13 +16,15 @@
   .footer-bottom-text {
     margin-top: 6px;
 }
+    
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 30px;
+        letter-spacing: .78px;
+    }
+ 
     .nav-item:hover a.nav-link {
         font-size: 30px;
-    }
-    .navbar-light .navbar-nav .nav-link {
-    
-        font-size: 30px;
-       
+        letter-spacing:0;
     }
     .big-img img {
         width: 350px;
@@ -165,6 +167,7 @@ button.slick-prev.slick-arrow i.fas.fa-angle-right {
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 17px;
+        letter-spacing: 0.45px;
     }
     .hero-right-content {
         left: 105px;
@@ -620,6 +623,7 @@ button.slick-prev.slick-arrow i.fas.fa-angle-right {
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 18px;
+        letter-spacing: 0.43px;
     }
     .nav-item:hover a.nav-link:after {
         width: 85%;
@@ -686,6 +690,7 @@ button.slick-prev.slick-arrow i.fas.fa-angle-right {
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 18px;
+        letter-spacing: 0.43px;
     }
     .mt-70 {
         margin-top: 40px;
@@ -1185,6 +1190,5 @@ ul.footer {
         height: 100%;
         width: 100%;
     }
-   
     
   }

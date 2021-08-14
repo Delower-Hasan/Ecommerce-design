@@ -47,23 +47,33 @@ $('.catalog-wrapper').slick({
   });
 
 //   Brand section
+function setDots(){
+  $(".owl-dots").removeClass('disabled');
+}
 $('.brand-wrapper').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    dots:false,
-    responsive:{
-        0:{
-            items:2
-        },
-        500:{
-            items:3
-        },
-        992:{
-            items:4
-        }
-    }
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  dots:true,
+  nav:false,
+  responsive:{
+      0:{
+          items:2,
+          nav:false
+      },
+      500:{
+          items:3,
+          nav:false
+      },
+      992:{
+          items:4,
+          loop:true
+      }
+  },
+  onInitialized:setDots,
+  onChanged:setDots
 })
+
 //   Item section
 $('.item-wrapper').owlCarousel({
     loop:true,
@@ -88,7 +98,7 @@ $('.item-wrapper').owlCarousel({
 
 // Product zoom
 
-$('.zoom-img').picZoomer();
+// $('.zoom-img').picZoomer();
 $('.menu-img').on('click',function(event){
 
     var $pic = $(this).find('img');
